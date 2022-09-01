@@ -2,7 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/alfonmga/gzap.svg)](https://pkg.go.dev/github.com/alfonmga/gzap)
 
-Some parts of the source code were extracted from from [gin-contrib/zap](https://github.com/gin-contrib/zap) and [things-go/gzap](https://github.com/things-go/gzap). I made minor changes to adapt it to the needs of my projects.
+Some parts of the source code were extracted from from [gin-contrib/zap](https://github.com/gin-contrib/zap) and [things-go/gzap](https://github.com/things-go/gzap). I made minor changes, like [using a specific log level based on the response status code](https://github.com/alfonmga/gzap/blob/b8f265ead149e7275daf60ce0b8ef316503a616c/main.go#L139-L145), to adapt it to the needs of my projects.
 
 ## Install
 
